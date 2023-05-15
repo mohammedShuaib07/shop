@@ -12,9 +12,13 @@ function App() {
       <Provider store={store}>
         <BrowserRouter>
           <Navbar />
+
+
+
+          
           <Routes>
             <Route path="/" element={<Home />}></Route>
-            <Route path="/card" element={<Card />}></Route>y
+            <Route path="/card" element={<Card />}></Route>
           </Routes>
         </BrowserRouter>
       </Provider>
